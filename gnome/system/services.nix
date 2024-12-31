@@ -45,4 +45,9 @@
 
     # Enable the OpenSSH daemon.
     # services.openssh.enable = true;
+
+    services.ollama = {
+        enable = true;
+        acceleration = "cuda";
+    };
 }

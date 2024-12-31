@@ -22,6 +22,8 @@
         gnomeExtensions.alphabetical-app-grid
         gnomeExtensions.transparent-top-bar-adjustable-transparency
         gnomeExtensions.just-perfection
+
+        nvpy
     ];
 
     environment.gnome.excludePackages = with pkgs; [

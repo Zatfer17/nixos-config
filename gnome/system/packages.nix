@@ -10,6 +10,7 @@
         # vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
         wget
         fastfetch
+        uv
 
         google-chrome
         vlc
@@ -22,6 +23,7 @@
         gnomeExtensions.alphabetical-app-grid
         gnomeExtensions.transparent-top-bar-adjustable-transparency
         gnomeExtensions.just-perfection
+        gnomeExtensions.tactile
 
         nvpy
     ];

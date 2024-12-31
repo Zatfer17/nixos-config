@@ -101,7 +101,7 @@
                 begin-move = [];
                 raise = [];
                 raise-or-lower = [];
-                begin-resize = ["<Super>r"];
+                begin-resize = [];
                 unmaximize = ["<Super>Down"];
                 toggle-fullscreen = ["<Super>f"];
                 toggle-maximized = [];
@@ -174,6 +174,9 @@
                 layout-2-row-2 = 0;
 
                 gap-size = 16;
+
+                show-tiles = ["<Super>r"];
+                show-settings = ["<Shift><Super>r"];
             };
         };
     };

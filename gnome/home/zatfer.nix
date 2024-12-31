@@ -129,12 +129,20 @@
                 screensaver = ["<Super>Escape"];
                 logout = [];
 
-                custom-keybindings = ["/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"];
+                custom-keybindings = [
+                    "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
+                    "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
+                ];
             };
             "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
                 binding = "<Super>Return";
                 command = "kgx";
                 name = "Launch console";
+            };
+            "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
+                binding = "<Shift><Super>r";
+                command = "kgx -e sudo nixos-rebuild switch";
+                name = "Rebuild nixos";
             };
             "org/gnome/desktop/wm/preferences" = {
                 focus-mode = "sloppy";
@@ -160,7 +168,7 @@
                 col-0 = 2;
                 col-1 = 1;
                 col-2 = 1;
-                col-3 = 1;
+                col-3 = 0;
                 row-0 = 1;
                 row-1 = 1;
                 row-2 = 0;
@@ -176,7 +184,7 @@
                 gap-size = 16;
 
                 show-tiles = ["<Super>r"];
-                show-settings = ["<Shift><Super>r"];
+                show-settings = []; # Disable as it would clash with other keybinding
             };
         };
     };

@@ -165,21 +165,13 @@
                 dark-full-screen = true;
             };
             "org/gnome/shell/extensions/tactile" = {
-                col-0 = 2;
+                col-0 = 1;
                 col-1 = 1;
                 col-2 = 1;
                 col-3 = 0;
                 row-0 = 1;
                 row-1 = 1;
                 row-2 = 0;
-
-                layout-2-col-0 = 2;
-                layout-2-col-1 = 1;
-                layout-2-col-2 = 1;
-                layout-2-col-3 = 1;
-                layout-2-row-0 = 1;
-                layout-2-row-1 = 1;
-                layout-2-row-2 = 0;
 
                 gap-size = 16;
 

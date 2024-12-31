@@ -24,7 +24,6 @@
         gnomeExtensions.transparent-top-bar-adjustable-transparency
         gnomeExtensions.just-perfection
         gnomeExtensions.tactile
-        gnomeExtensions.rounded-corners
 
         nvpy
     ];

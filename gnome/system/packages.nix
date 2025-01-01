@@ -11,6 +11,7 @@
         wget
         fastfetch
         uv
+        sqlite
 
         google-chrome
         vlc

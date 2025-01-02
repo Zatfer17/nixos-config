@@ -12,6 +12,7 @@
         fastfetch
         uv
         sqlite
+        ngrok
 
         google-chrome
         vlc

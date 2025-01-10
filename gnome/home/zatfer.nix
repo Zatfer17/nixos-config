@@ -34,6 +34,8 @@
                 switch-to-application-7 = [];
                 switch-to-application-8 = [];
                 switch-to-application-9 = [];
+
+                toggle-application-view = ["<Super>space"];
             };
             "org/gnome/desktop/wm/keybindings" = {
                 show-desktop = [];
@@ -83,7 +85,6 @@
                 focus-active-notification = [];
                 toggle-quick-settings = [];
                 restore-shortcuts = [];
-                toggle-application-view = ["<Super>space"];
                 toggle-message-tray = ["<Super>v"];
                 toggle-overview = [];
                 panel-run-dialog = [];

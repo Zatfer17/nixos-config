@@ -42,12 +42,4 @@
 
     # Enable touchpad support (enabled default in most desktopManager).
     # services.xserver.libinput.enable = true;
-
-    # Enable the OpenSSH daemon.
-    services.openssh.enable = true;
-
-    services.ollama = {
-        enable = true;
-        acceleration = "cuda";
-    };
 }

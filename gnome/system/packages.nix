@@ -9,25 +9,20 @@
     environment.systemPackages = with pkgs; [
         # vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
         wget
-        fastfetch
         uv
-        sqlite
-        ngrok
+        vhs
+        mods
+        glow
 
         google-chrome
         vlc
-        vscode
-        discord
         spotify
-        obsidian
-        bitwarden-desktop
+        vscode
 
         gnomeExtensions.alphabetical-app-grid
         gnomeExtensions.transparent-top-bar-adjustable-transparency
         gnomeExtensions.just-perfection
         gnomeExtensions.tactile
-
-        nvpy
     ];
 
     environment.gnome.excludePackages = with pkgs; [
@@ -59,7 +54,7 @@
         #
         baobab
         epiphany
-        gnome-text-editor
+        #gnome-text-editor
         # gnome-calculator
         gnome-calendar
         gnome-characters
